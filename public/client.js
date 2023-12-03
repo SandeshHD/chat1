@@ -1,4 +1,4 @@
-const socket = io.connect('https://chat4-r38x.onrender.com/');
+const socket = io.connect('http://localhost:3000');
 let name;
 let textarea = document.querySelector('#textarea');
 let messageArea = document.querySelector('.message__area');
